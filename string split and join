@@ -1,0 +1,4 @@
+Line = input()
+a=Line.split(" ")
+a="-".join(a)
+print(a)
