@@ -1,0 +1,16 @@
+def average(array):
+   Array=set(array);
+   count=0;
+   sum=0;
+   for i in Array:
+        sum=sum+i;
+        count+=1    
+   result=sum/count;
+   return result;     
+    # your code goes here
+
+if _name_ == '_main_':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
