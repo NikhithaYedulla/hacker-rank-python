@@ -1,0 +1,8 @@
+def swap_case(s):
+    swapped=s.swapcase();
+    return swapped;
+
+if _name_ == '_main_':
+    s = input()
+    result = swap_case(s)
+    print(result)
